@@ -5,25 +5,26 @@ Skills used- **HTML, CSS, React.JS**
 
 Live Link - **https://jobbyAppVGK.ccbp.tech**
 
-
+--------------------------------------------------------------------
 
 ### Refer to videos below:
 
-<div style="text-align: center;">
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
+
+**Success View** <br/>
+
+
+
+https://github.com/user-attachments/assets/8ed255df-dcf5-4a3d-ad31-66af08ee8853
+
+
 
 **Failure View** <br/>
 
-<div style="text-align: center;">
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v1.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
+
+
+https://github.com/user-attachments/assets/e694fe91-ecfb-4ba8-859f-3b9aa55a6a2f
+
+
 
 
 **Login Details**
