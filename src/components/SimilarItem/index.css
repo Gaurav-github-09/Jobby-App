@@ -1,0 +1,22 @@
+.SimilarItemListCont {
+  width: 30%;
+  margin: 7px;
+  padding: 0px;
+  text-decoration: none;
+}
+.JobItemListCont0 {
+  min-height: 40vh;
+}
+
+@media (min-width: 900px) {
+  .SimilarItemListCont {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .SimilarItemListCont {
+    width: 100%;
+    flex-grow: 5;
+  }
+}

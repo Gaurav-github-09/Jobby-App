@@ -1,0 +1,74 @@
+.bgCont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  flex-wrap: wrap;
+  min-height: 115vh;
+  padding: 25px;
+}
+
+.FindThe {
+  color: #f8fafc;
+  line-height: 1.5;
+  width: 60%;
+  margin: 17px;
+  font-family: 'roboto';
+  font-size: 50px;
+  text-align: left;
+}
+
+.Millions {
+  margin: 2px 20px 20px 20px;
+  color: #ffffff;
+  width: 60%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+}
+@media (min-width: 1000px) {
+  .FindThe {
+    width: 53%;
+    font-size: 70px;
+  }
+  .Millions {
+    width: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .bgCont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    justify-content: flex-start;
+    min-height: 135vh;
+  }
+  .FindThe {
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .Millions {
+    font-size: small;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+.FindJobs {
+  padding: 11px 20px;
+  margin: 5px 15px;
+  font-weight: bolder;
+  font-family: 'Roboto';
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  background-color: #4f46e5;
+}

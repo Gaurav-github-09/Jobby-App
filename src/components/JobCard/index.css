@@ -1,0 +1,125 @@
+.jobSpeCont {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 100%;
+  padding: 25px;
+  margin: 0px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.descCont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 1px;
+  padding: 0px;
+}
+
+.visit-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #6366f1;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.JobItemListCont2 {
+  cursor: auto;
+  flex-wrap: wrap;
+}
+.skillUnorderedCont {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+.SkillsHeading {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: larger;
+  padding: 15px 2px;
+}
+
+.bi-link {
+  margin-left: 9px;
+}
+
+.lifeAtCompany {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: larger;
+  color: #cbd5e1;
+}
+
+.lifeAtCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.lifeAtCompanyLogo {
+  width: 40%;
+  margin-left: 15px;
+}
+
+.lifeAtCompanyDesc {
+  font-weight: 400;
+  font-size: 17px;
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-left: 10px;
+}
+
+.similarJobs {
+  color: #f8fafc;
+  margin: 15px 10px;
+  font-size: larger;
+}
+
+.similarJobsCont {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2px;
+  flex-grow: 5;
+  padding: 1px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media (max-width: 750px) {
+  .lifeAtCompanyDesc {
+    font-size: smaller;
+    flex-grow: 5;
+    line-height: 1.5;
+  }
+  .lifeAtCompanyLogo {
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 900px) {
+  .failedimg2 {
+    width: 500px;
+    height: 500px;
+  }
+  .JobItemListCont2 {
+    padding: 30px;
+  }
+}

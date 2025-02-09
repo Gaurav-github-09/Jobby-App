@@ -1,0 +1,232 @@
+.jobCont {
+  background-color: #000000;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .jobCont {
+    flex-direction: column;
+  }
+}
+
+.headingTypes {
+  color: #cbd5e1;
+  padding: 5px 5px 15px 15px;
+  font-size: medium;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.horizontal {
+  margin: 25px 0px 20px 0px;
+  border: #7e858e solid 1.4px;
+}
+
+.unord {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+
+  padding-left: 15px;
+  list-style-type: none;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.listel {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+label {
+  padding-left: 10px;
+  color: #cbd5e1;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.inputRC {
+  height: 13px;
+  cursor: pointer;
+  width: 13px;
+  outline: #000000 solid 1px;
+  border: #000000 solid 1px;
+}
+
+@media (min-width: 1000px) {
+  label {
+    font-size: medium;
+  }
+  .headingTypes {
+    font-size: larger;
+  }
+  .inputRC {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.search-input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 0px;
+  margin-bottom: 20px;
+  display: none;
+  border-radius: 5px;
+  flex-direction: row;
+  border: #7f8388 solid 1.5px;
+  align-items: center;
+}
+
+.searchInput {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-weight: 400;
+  color: #adb0b5;
+}
+
+.searchBtn {
+  padding: 10px 15px;
+  margin: 0px;
+  border: none;
+  border-left: #7f8388 solid 1.5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  background-color: #272727;
+}
+
+.search-icon {
+  color: #cbd5e1;
+}
+
+.mainCard1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  width: 37%;
+}
+
+.search-input2 {
+  min-width: 80%;
+  margin-top: 5px;
+  padding: 0px;
+  margin-bottom: 20px;
+
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  border: #7f8388 solid 1.5px;
+  align-items: center;
+}
+
+.mainCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  flex-grow: 5;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin: 2px;
+}
+
+.failureCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.failureHeading {
+  color: #cbd5e1;
+  font-size: larger;
+  font-weight: 500;
+  padding: 10px;
+  margin: 2px;
+}
+
+.failurePara {
+  color: #7e858e;
+  line-height: 1.2;
+  font-size: small;
+  padding: 5px;
+  margin: 2px;
+}
+
+.failureImg {
+  width: 80%;
+  max-height: 400px;
+  align-self: center;
+  margin: 20px;
+}
+
+.jobsFailureBtn {
+  margin: 10px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  outline: none;
+  border: none;
+  color: #cbd5e1;
+  cursor: pointer;
+  font-size: small;
+  font-weight: 500;
+}
+
+.jobsUnordered {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-grow: 7;
+  margin: 2px;
+}
+
+@media (max-width: 576px) {
+  .search-input {
+    display: flex;
+  }
+  .search-input2 {
+    display: none;
+  }
+
+  .mainCard1 {
+    width: 100%;
+  }
+  .mainCard2 {
+    width: 100%;
+  }
+  .failureImg {
+    width: 80%;
+    max-height: 300px;
+  }
+  .failureHeading {
+    font-size: large;
+  }
+  .failurePara {
+    font-size: smaller;
+  }
+}

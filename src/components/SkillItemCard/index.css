@@ -1,0 +1,43 @@
+.eachSkillCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  padding: 2px;
+  flex-wrap: wrap;
+  margin: 10px 5px;
+}
+
+@media (max-width: 786px) {
+  .eachSkillCont {
+    width: 45%;
+  }
+}
+
+.skillLogo {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.skillName {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 6px;
+  font-size: small;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+@media (max-width: 786px) {
+  .eachSkillCont {
+    max-width: 45%;
+  }
+  .skillLogo {
+    height: 30px;
+    width: 30px;
+  }
+  .skillName {
+    font-size: 13px;
+  }
+}

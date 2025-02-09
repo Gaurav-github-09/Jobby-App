@@ -1,0 +1,47 @@
+.notFoundCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  font-family: 'roboto';
+  min-height: 100vh;
+  background-color: #000000;
+}
+.notFoundlOGO {
+  height: 350px;
+  width: 350px;
+  margin: 15px 5px;
+}
+
+@media (max-width: 576px) {
+  .notFoundlOGO {
+    max-height: 350px;
+    width: 80%;
+  }
+}
+
+.pageNot {
+  color: #ffffff;
+  margin: 5px;
+  font-size: larger;
+  padding: 8px;
+}
+
+.WeAre {
+  color: #cbd5e1;
+  padding: 8px;
+  margin: 5px;
+  font-size: small;
+}
+
+@media (min-width: 576px) {
+  .pageNot {
+    font-size: 35px;
+  }
+  .WeAre {
+    font-size: 20px;
+  }
+}

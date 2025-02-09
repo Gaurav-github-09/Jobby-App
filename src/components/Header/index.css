@@ -1,0 +1,90 @@
+nav {
+  margin: 0px;
+  padding: 8px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #202020;
+}
+
+.minButoon {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.logonav {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.unordered {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.listEl {
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+
+.Logout {
+  border: none;
+  padding: 9px 35px;
+  outline: none;
+  font-weight: 600;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: smaller;
+}
+.hideCont {
+  display: none;
+  list-style-type: none;
+}
+
+@media (max-width: 576px) {
+  .unordered {
+    display: none;
+  }
+  .Logout {
+    display: none;
+  }
+  .logonav {
+    height: 30px;
+    width: 90px;
+  }
+
+  .hideCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 5px 10px;
+  }
+
+  .miniIcons {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    color: #f1f5f9;
+    cursor: pointer;
+  }
+}
